@@ -25,6 +25,7 @@ func giveNo(fn func(a int) int) {
 	fn(5)
 }
 
+//  return funciion from a funciton
 func getFunction(op int) func(a, b int) int {
 	add := func(a, b int) int {
 		return a + b
